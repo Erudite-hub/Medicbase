@@ -1,0 +1,237 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+nav
+{
+    height: 65px;
+    width: 100%;
+    background:deeppink;
+}
+label.logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 0 30px;
+    line-height: 80px;
+}
+nav ul
+{
+    float: right;
+    margin-right: 40px;
+
+}
+nav li
+{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a
+{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 5px 7px;
+    border-radius: 1.5px;
+
+}
+a.active,a:hover
+{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    
+
+}
+.w-80
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+
+body::-webkit-scrollbar
+{
+    width: 4px;
+    background: crimson;
+}
+body::-webkit-scrollbar-track
+{
+    background: white;}
+section
+{
+    width: 100%;
+    float: initial;
+    height: 50%;
+}
+
+section .section-img
+{
+    width: 100%;
+    padding-bottom: 0;
+    height: 500px;
+    background: url(../medicbase/pictures/smart-healthcare.jpg);
+}
+section .section-bg-box
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    padding: 20px 0;
+
+}
+section .section-bg-box h1
+{
+    background: chartreuse;
+    color: cornsilk;
+    font-size: 50px;
+    width: 91%;
+    margin: auto;
+
+}
+section .section-bg-box h2
+{
+    background: blue;
+    color: cornsilk;
+    width: 32%;
+    margin: auto;
+    font-size: 22px;
+    text-align: center;
+}
+section .welcome-text
+{
+    font-size:40px ;
+    text-transform: uppercase;
+    background: crimson;
+    width: 50%;
+    padding: 0 5px;
+    color: darkgray;
+}
+section p
+{
+    font-size: 22px;
+    text-align: justify;
+    font-family: monospace;
+    background-color: white;
+
+}
+section ul
+{
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 10px;
+    list-style: none;
+}
+section ul li
+{
+    font-size: 20px;
+    line-height: 30px;
+}
+section h2
+{
+    font-size: 25px;
+    background: darkblue;
+    color: white;
+    width: 50%;
+}
+section h1
+{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    background: crimson;
+    width: 50%;
+    padding: 0 5px;
+    color: darkgray;
+    text-align: center
+}
+section .about-box p
+{
+    font-size: 18px;
+}
+section .about-box div:nth-child(1)
+{
+    width: 60%;
+    float: left;
+
+}
+section .about-box div:nth-child(2)
+{
+    width: 40%;
+    float: left;
+    
+}
+
+footer
+{
+    width: 100%;
+    background:darkseagreen;
+    float: left;
+    color:  blue;
+    padding: 30px 0;
+    
+}
+footer .footer-box
+{
+    width: 25%;
+    float: left;
+    height: 100%;
+
+}
+footer .footer-box ul
+{
+    float: center;
+    margin-right: 100px;
+}
+footer .footer-box ul li
+{
+    margin: 0 20px;
+    line-height: 25px;
+}
+
+footer.footer-box h2
+{
+    float: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+footer .footer-box p
+{
+
+    font-size: 20px;
+    margin:0 20px;
+    float: center;
+
+}
+footer .footer-box a
+{
+display: block;
+font-family:'Times New Roman', Times, serif;
+color: white;
+font-size: 20px;
+text-transform: capitalize;
+padding: 5px;
+}
+footer .footer-box a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+
